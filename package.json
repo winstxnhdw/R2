@@ -3,7 +3,8 @@
     "lint": "biome check .",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "bun test --watch"
+    "test": "bun test --watch",
+    "totp": "bun scripts/generate_totp.ts"
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.5.0",
@@ -16,6 +17,9 @@
     "@biomejs/biome": "1.9.4",
     "@cloudflare/workers-types": "^4.20241216.0",
     "@types/bun": "latest",
+    "@types/qrcode": "^1.5.5",
+    "qrcode": "^1.5.4",
+    "time2fa": "^1.4.2",
     "wrangler": "^3.97.0"
   },
   "peerDependencies": {

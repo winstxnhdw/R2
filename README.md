@@ -1,6 +1,14 @@
 # R2
 
-A batteries-included [Hono](https://hono.dev/) boilerplate for [Cloudflare Workers](https://workers.cloudflare.com/) with [OpenAPI Swagger UI](https://swagger.io/specification/).
+My personal time-based blob store with Cloudflare Workers R2.
+
+## Generate TOTP
+
+You can generate the TOTP QR code for your authenticator app with the following.
+
+```bash
+bun totp
+```
 
 ## Development
 

@@ -1,4 +1,4 @@
-name = "worker"
+name = "R2"
 main = "src/index.ts"
 compatibility_flags = ["nodejs_compat", "nodejs_als"]
 compatibility_date = "2024-04-29"
@@ -9,5 +9,6 @@ send_metrics = false
 [placement]
 mode = "smart"
 
-[ai]
-binding = "ai"
+[[r2_buckets]]
+binding = 'R2_BUCKET'
+bucket_name = 'R2'
