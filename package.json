@@ -15,12 +15,12 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@cloudflare/workers-types": "^4.20250214.0",
+    "@cloudflare/workers-types": "^4.20250224.0",
     "@types/bun": "latest",
     "@types/qrcode": "^1.5.5",
     "qrcode": "^1.5.4",
     "time2fa": "^1.4.2",
-    "wrangler": "^3.109.2"
+    "wrangler": "^3.110.0"
   },
   "peerDependencies": {
     "typescript": "latest"
