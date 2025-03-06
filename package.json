@@ -20,7 +20,7 @@
     "@types/qrcode": "^1.5.5",
     "qrcode": "^1.5.4",
     "time2fa": "^1.4.2",
-    "wrangler": "^3.112.0"
+    "wrangler": "^3.113.0"
   },
   "peerDependencies": {
     "typescript": "latest"
